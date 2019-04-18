@@ -1,0 +1,260 @@
+
+
+Sex
+
+Multiple Comparison of Means - Tukey HSD,FWER=0.05
+===========================================
+group1 group2 meandiff lower  upper  reject
+-------------------------------------------
+female  male   0.6067  0.5899 0.6234  True 
+-------------------------------------------
+
+Age
+
+Multiple Comparison of Means - Tukey HSD,FWER=0.05
+=============================================
+group1 group2 meandiff  lower   upper  reject
+---------------------------------------------
+18-24  25-34  -0.0151  -0.0779  0.0477 False 
+18-24  35-44  -0.1922  -0.2539 -0.1306  True 
+18-24  45-54  -0.3045  -0.3635 -0.2456  True 
+18-24  55-64  -0.5268  -0.5834 -0.4701  True 
+18-24   >65   -0.8274  -0.8817 -0.7731  True 
+25-34  35-44  -0.1771  -0.2289 -0.1254  True 
+25-34  45-54  -0.2894  -0.3379 -0.2409  True 
+25-34  55-64  -0.5116  -0.5573  -0.466  True 
+25-34   >65   -0.8123   -0.855 -0.7696  True 
+35-44  45-54  -0.1123  -0.1593 -0.0653  True 
+35-44  55-64  -0.3345  -0.3786 -0.2904  True 
+35-44   >65   -0.6352  -0.6762 -0.5942  True 
+45-54  55-64  -0.2222  -0.2625  -0.182  True 
+45-54   >65   -0.5229  -0.5597  -0.486  True 
+55-64   >65   -0.3006  -0.3336 -0.2677  True 
+---------------------------------------------
+
+Marital
+
+     Multiple Comparison of Means - Tukey HSD,FWER=0.05    
+===========================================================
+    group1        group2    meandiff  lower   upper  reject
+-----------------------------------------------------------
+   divorced      married    -0.2602   -0.295 -0.2255  True 
+   divorced   never_married  0.2392   0.1972  0.2812  True 
+   divorced     separated    0.067   -0.0186  0.1525 False 
+   divorced      widowed    -0.5017  -0.5467 -0.4567  True 
+   married    never_married  0.4994   0.4669  0.5319  True 
+   married      separated    0.3272   0.2459  0.4085  True 
+   married       widowed    -0.2415  -0.2778 -0.2052  True 
+never_married   separated   -0.1722  -0.2569 -0.0875  True 
+never_married    widowed    -0.7409  -0.7842 -0.6976  True 
+  separated      widowed    -0.5687  -0.6549 -0.4825  True 
+-----------------------------------------------------------
+
+Education
+
+  Multiple Comparison of Means - Tukey HSD,FWER=0.05  
+======================================================
+   group1      group2   meandiff  lower  upper  reject
+------------------------------------------------------
+  college    elementary -0.0215  -0.0959 0.0529 False 
+  college   high_school  0.1365   0.1128 0.1602  True 
+  college    no_school   0.0203  -0.2848 0.3254 False 
+ elementary high_school  0.158    0.0823 0.2337  True 
+ elementary  no_school   0.0418  -0.2717 0.3552 False 
+high_school  no_school  -0.1163  -0.4217 0.1892 False 
+------------------------------------------------------
+
+Employment
+
+ Multiple Comparison of Means - Tukey HSD,FWER=0.05 
+====================================================
+  group1    group2   meandiff  lower   upper  reject
+----------------------------------------------------
+ employed homemaker   -0.573  -0.6276 -0.5184  True 
+ employed  retired   -0.5154  -0.5433 -0.4874  True 
+ employed  student   -0.0154  -0.0909   0.06  False 
+ employed   unable   -0.3208  -0.3688 -0.2728  True 
+ employed unemployed  0.0229  -0.0377  0.0836 False 
+homemaker  retired    0.0576   0.0013  0.114   True 
+homemaker  student    0.5576   0.4677  0.6475  True 
+homemaker   unable    0.2523   0.1837  0.3208  True 
+homemaker unemployed  0.5959   0.518   0.6738  True 
+ retired   student    0.4999   0.4232  0.5766  True 
+ retired    unable    0.1946   0.1447  0.2446  True 
+ retired  unemployed  0.5383   0.4761  0.6005  True 
+ student    unable   -0.3053  -0.3914 -0.2193  True 
+ student  unemployed  0.0384  -0.0554  0.1321 False 
+  unable  unemployed  0.3437   0.2702  0.4171  True 
+----------------------------------------------------
+
+Income
+
+Multiple Comparison of Means - Tukey HSD,FWER=0.05
+=============================================
+group1 group2 meandiff  lower   upper  reject
+---------------------------------------------
+ <10k   <15k  -0.0858  -0.1771  0.0056 False 
+ <10k   <20k  -0.1023  -0.1868 -0.0178  True 
+ <10k   <25k  -0.0433  -0.1245  0.0379 False 
+ <10k   <35k  -0.0707  -0.1498  0.0084 False 
+ <10k   <50k  -0.0185  -0.0944  0.0574 False 
+ <10k   <75k   0.0039  -0.0709  0.0787 False 
+ <10k   >75k   0.0317  -0.0385  0.1019 False 
+ <15k   <20k  -0.0165  -0.0994  0.0664 False 
+ <15k   <25k   0.0425  -0.0371  0.122  False 
+ <15k   <35k   0.0151  -0.0623  0.0925 False 
+ <15k   <50k   0.0673  -0.0068  0.1414 False 
+ <15k   <75k   0.0897   0.0167  0.1627  True 
+ <15k   >75k   0.1175   0.0492  0.1858  True 
+ <20k   <25k   0.059   -0.0126  0.1305 False 
+ <20k   <35k   0.0316  -0.0376  0.1008 False 
+ <20k   <50k   0.0838   0.0183  0.1493  True 
+ <20k   <75k   0.1062   0.042   0.1704  True 
+ <20k   >75k   0.134    0.0752  0.1928  True 
+ <25k   <35k  -0.0274  -0.0925  0.0378 False 
+ <25k   <50k   0.0249  -0.0363  0.086  False 
+ <25k   <75k   0.0473  -0.0125  0.107  False 
+ <25k   >75k   0.075    0.0211  0.129   True 
+ <35k   <50k   0.0522  -0.0062  0.1106 False 
+ <35k   <75k   0.0746   0.0177  0.1316  True 
+ <35k   >75k   0.1024   0.0516  0.1532  True 
+ <50k   <75k   0.0224  -0.0299  0.0747 False 
+ <50k   >75k   0.0502   0.0046  0.0957  True 
+ <75k   >75k   0.0278  -0.0159  0.0715 False 
+---------------------------------------------
+
+Emotional_support
+
+Multiple Comparison of Means - Tukey HSD,FWER=0.05
+==================================================
+  group1    group2  meandiff  lower  upper  reject
+--------------------------------------------------
+  always    never   -0.0192  -0.2941 0.2556 False 
+  always    rarely   0.2772  -0.0566 0.6111 False 
+  always  sometimes  0.1753  -0.0141 0.3646 False 
+  always   usually   0.0129  -0.1101 0.1359 False 
+  never     rarely   0.2964  -0.1235 0.7164 False 
+  never   sometimes  0.1945   -0.123 0.512  False 
+  never    usually   0.0321  -0.2508 0.3151 False 
+  rarely  sometimes -0.1019  -0.4717 0.2678 False 
+  rarely   usually  -0.2643  -0.6049 0.0763 False 
+sometimes  usually  -0.1624  -0.3634 0.0386 False 
+--------------------------------------------------
+
+Satisfied_life
+
+         Multiple Comparison of Means - Tukey HSD,FWER=0.05        
+===================================================================
+      group1            group2      meandiff  lower   upper  reject
+-------------------------------------------------------------------
+   dissatisfied       satisfied     -0.3607  -0.6344 -0.0871  True 
+   dissatisfied   very_dissatisfied -0.0519  -0.6705  0.5666 False 
+   dissatisfied     very_satisfied   -0.527  -0.7998 -0.2541  True 
+    satisfied     very_dissatisfied  0.3088  -0.2558  0.8734 False 
+    satisfied       very_satisfied  -0.1662  -0.2693 -0.0631  True 
+very_dissatisfied   very_satisfied   -0.475  -1.0392  0.0892 False 
+-------------------------------------------------------------------
+
+Cannot_pay_bills
+
+Multiple Comparison of Means - Tukey HSD,FWER=0.05
+==========================================
+group1 group2 meandiff lower  upper reject
+------------------------------------------
+  no    yes    0.2829  0.2118 0.354  True 
+------------------------------------------
+
+Safe_living
+
+        Multiple Comparison of Means - Tukey HSD,FWER=0.05       
+=================================================================
+     group1           group2      meandiff  lower   upper  reject
+-----------------------------------------------------------------
+ extremely_safe  extremely_unsafe  1.2242   0.903   1.5453  True 
+ extremely_safe        safe       -0.0268  -0.0787  0.0252 False 
+ extremely_safe       unsafe       0.2134   0.0699  0.357   True 
+extremely_unsafe       safe       -1.2509  -1.5717 -0.9302  True 
+extremely_unsafe      unsafe      -1.0107  -1.3583 -0.6632  True 
+      safe            unsafe       0.2402   0.0976  0.3828  True 
+-----------------------------------------------------------------
+
+Cannot_afford_meals
+
+    Multiple Comparison of Means - Tukey HSD,FWER=0.05   
+=========================================================
+  group1       group2     meandiff  lower   upper  reject
+---------------------------------------------------------
+never_true   often_true    0.2736   0.1655  0.3817  True 
+never_true sometimes_true  0.0682  -0.0086  0.1449 False 
+often_true sometimes_true -0.2054  -0.3331 -0.0777  True 
+---------------------------------------------------------
+
+Finances
+
+        Multiple Comparison of Means - Tukey HSD,FWER=0.05        
+==================================================================
+      group1           group2      meandiff  lower   upper  reject
+------------------------------------------------------------------
+just_enough_money not_enough_money  0.1246   0.0334  0.2158  True 
+just_enough_money some_money_left  -0.0115  -0.0619  0.0388 False 
+ not_enough_money some_money_left  -0.1361  -0.2241 -0.0481  True 
+------------------------------------------------------------------
+
+Stress
+
+    Multiple Comparison of Means - Tukey HSD,FWER=0.05   
+=========================================================
+   group1       group2    meandiff  lower   upper  reject
+---------------------------------------------------------
+  a_little   all_of_time   0.6821    0.54   0.8242  True 
+  a_little   most_of_time  0.3447   0.232   0.4574  True 
+  a_little       none     -0.0486  -0.1144  0.0171 False 
+  a_little   some_of_time  0.1456   0.0625  0.2287  True 
+all_of_time  most_of_time -0.3375  -0.5034 -0.1715  True 
+all_of_time      none     -0.7308  -0.8692 -0.5923  True 
+all_of_time  some_of_time -0.5365   -0.684  -0.389  True 
+most_of_time     none     -0.3933  -0.5013 -0.2853  True 
+most_of_time some_of_time  -0.199  -0.3184 -0.0797  True 
+    none     some_of_time  0.1943   0.1177  0.2708  True 
+---------------------------------------------------------
+
+Depression
+
+Multiple Comparison of Means - Tukey HSD,FWER=0.05
+===========================================
+group1 group2 meandiff lower  upper  reject
+-------------------------------------------
+  no    yes    0.1227  0.1019 0.1435  True 
+-------------------------------------------
+
+Times_moved_bins
+
+Multiple Comparison of Means - Tukey HSD,FWER=0.05
+===============================================
+group1   group2  meandiff  lower  upper  reject
+-----------------------------------------------
+  0        1      0.2426   0.1558 0.3294  True 
+  0        2      0.2698   0.0796 0.4599  True 
+  0    3 or more  1.0368   0.8064 1.2671  True 
+  1        2      0.0271  -0.1784 0.2327 False 
+  1    3 or more  0.7941   0.5509 1.0373  True 
+  2    3 or more  0.767    0.4707 1.0633  True 
+-----------------------------------------------
+
+Poor_mental_health_days
+
+Multiple Comparison of Means - Tukey HSD,FWER=0.05
+=============================================
+group1 group2 meandiff  lower   upper  reject
+---------------------------------------------
+  0     <10    0.2803   0.2252  0.3353  True 
+  0     <20    0.3795   0.325   0.434   True 
+  0      <5    0.155    0.1226  0.1873  True 
+  0     >20    0.5053   0.4575  0.5531  True 
+ <10    <20    0.0992   0.0245  0.174   True 
+ <10     <5   -0.1253  -0.1859 -0.0647  True 
+ <10    >20    0.2251   0.155   0.2951  True 
+ <20     <5   -0.2245  -0.2846 -0.1644  True 
+ <20    >20    0.1258   0.0562  0.1955  True 
+  <5    >20    0.3504   0.2963  0.4045  True 
+---------------------------------------------

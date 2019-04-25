@@ -7,13 +7,7 @@ I conducted this project as part of the K2 Data Science bootcamp within a 1 - 2 
 
 This project was conducted using BRFSS datasets from 2013 to 2017, Python 3.6.5, and a variety of packages as detailed in requirements.txt.
 
-In order to replicate this project, you should:
-
-1. Download the src folder from this repository into a directory of your choice
-1. Download the BRFSS SAS Transport/XPT Files for 2013 to 2017 [from this location](https://www.cdc.gov/brfss/annual_data/annual_2017.html)
-1. Call the main function from src and provide the path of the data files
-
-The program will ask a few prompts on whether you want the full 2013-2017 dataset / analysis (takes a long time) or just 2013. It will then generate and save graphics to your directory.
+In order to replicate this project, you can follow along in the Jupyter Notbooks in the notebooks folder of this repo, which walk through data acquisition, cleaning, and exploration.
 
 -----
 

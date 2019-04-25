@@ -7,7 +7,7 @@ I conducted this project as part of the K2 Data Science bootcamp within a 1 - 2 
 
 This project was conducted using BRFSS datasets from 2013 to 2017, Python 3.6.5, and a variety of packages as detailed in requirements.txt.
 
-In order to replicate this project, you can follow along in the Jupyter Notbooks in the notebooks folder of this repo, which walk through data acquisition, cleaning, and exploration.
+In order to replicate this project, you can follow along in the Jupyter Notebooks in the notebooks folder of this repo, which walk through data acquisition, cleaning, and exploration.
 
 -----
 
